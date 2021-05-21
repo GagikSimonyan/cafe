@@ -1,0 +1,13 @@
+.footer {
+  padding: 48px;
+  background-color: #f1f1f1;
+  &__text {
+    text-align: center;
+  }
+  &__link {
+    color: #000;
+    &:hover {
+      color: #4CAF50;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $mainff;
+  font-size: $fz;
+}
+
+.container {
+  max-width: 730px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: #F7F5F2;
+}
+
+.title {
+  display: inline-block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  padding: 0 8px;
+  font-family: $segoe;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+

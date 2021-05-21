@@ -1,0 +1,52 @@
+.cafe {
+  position: relative;
+
+  &__image {
+    position: relative;
+    padding: 0px 0px 640px 0px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &__title {
+    text-align: center;
+    font-size: 90px;
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    span {
+      display: block;
+      margin-bottom: 35px;
+    }
+  }
+  &__info {
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+  }
+  &__open {
+    background-color: #000;
+    left: 20px;
+  }
+  &__address {
+    color: #fff;
+    right: 20px;
+  }
+}
+
+@media (max-width: 601px) {
+  .cafe__open {
+    display: none;
+  }
+}

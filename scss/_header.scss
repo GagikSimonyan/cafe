@@ -1,0 +1,30 @@
+.header {
+  &__top {
+    padding: 10px 20px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    li {
+      width: 25%;
+    }
+  }
+  &__link {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    &:hover {
+      color: #000;
+      background-color: #ccc;
+    }
+  }
+}

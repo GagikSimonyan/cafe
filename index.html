@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cafe</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a href="#" class="header__link">Home</a></li>
+          <li><a href="#about" class="header__link">About</a></li>
+          <li><a href="#menu" class="header__link">Menu</a></li>
+          <li><a href="#where" class="header__link">Where</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="cafe">
+      <div class="cafe__image"><img src="./images/coffeehouse.jpg" alt="cafe"></div>
+      <h1 class="cafe__title"><span>the</span>Cafe</h1>
+      <span class="cafe__info cafe__open">Open from 6am to 5pm</span>
+      <span class="cafe__info cafe__address">15 Adr street, 5015</span>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section id="about">
+        <div class="about__title">
+          <h2 class="title">About the cafe</h2>
+        </div>
+        <div class="about__text text">
+          <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        </div>
+        <div class="about__chef chef">
+          <p class="chef__quotes">"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+          <p class="chef__text">Chef, Coffeeist and Owner: Liam Brown</p>
+        </div>
+        <div class="about__image"><img src="./images/coffeeshop.jpg" alt="shop"></div>
+        <div class="about__info">
+          <p class="about__hours"><span>Opening hours: </span>everyday from 6am to 5pm.</p>
+          <p class="about__address"><span>Address: </span>15 Adr street, 5015, NY</p>
+        </div>
+      </section>
+      <section id="menu">
+        <div class="menu__title">
+          <h2 class="title">The menu</h2>
+        </div>
+        <div class="menu__block">
+          <div class="menu__header">
+            <nav>
+              <ul class="menu__list">
+                <li><a href="" class="menu__link selected">Eat</a></li>
+                <li><a href="" class="menu__link">Drink</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="menu__eat active">
+            <p class="menu__subtitle">Bread Basket</p>
+            <p class="menu__text">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <p class="menu__subtitle">Honey Almond Granola with Fruits</p>
+            <p class="menu__text">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <p class="menu__subtitle">Belgian Waffle</p>
+            <p class="menu__text">Vanilla flavored batter with malted flour 7.50</p>
+            <p class="menu__subtitle">Scrambled eggs</p>
+            <p class="menu__text">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <p class="menu__subtitle">Blueberry Pancakes</p>
+            <p class="menu__text">With syrup, butter and lots of berries 8.50</p>
+          </div>
+          <div class="menu__drink">
+            <p class="menu__subtitle">Coffee</p>
+            <p class="menu__text">Regular coffee 2.50</p>
+            <p class="menu__subtitle">Chocolato</p>
+            <p class="menu__text">Chocolate espresso with milk 4.50</p>
+            <p class="menu__subtitle">Corretto</p>
+            <p class="menu__text">Whiskey and coffee 5.00</p>
+            <p class="menu__subtitle">Iced tea</p>
+            <p class="menu__text">Hot tea, except not hot 3.00</p>
+            <p class="menu__subtitle">Soda</p>
+            <p class="menu__text">Coke, Sprite, Fanta, etc. 2.50</p>
+          </div>
+        </div>
+        <div class="menu__image"><img src="./images/cup.jpg" alt="cup"></div>
+      </section>
+      <section id="where">
+        <div class="where__title">
+          <h2 class="title">Where to find us</h2>
+        </div>
+        <p class="where__text">Find us at some address at some place.</p>
+        <div class="where__image"><img src="./images/map.jpg" alt="map"></div>
+        <p class="where__text"><span class="where__fyi">FYI! </span>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p class="where__text"><span class="where__reserve">Reserve </span>a table, ask for today's special or just send us a message:</p>
+        <form class="where__form">
+          <input type="text" name="name" id="name" placeholder="Name" required>
+          <input type="number" name="name" id="name" placeholder="How many people" required>
+          <input type="datetime-local" name="date" id="date" value="2020-11-16T20:00" required>
+          <input type="text" name="message" id="message" placeholder="Message \ Special requirements" required>
+          <button class="where__btn">SEND MESSAGE</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="footer__text">Powered by <a href="https://www.w3schools.com/w3css" class="footer__link" target="_blank">w3.css</a></p>
+  </footer>
+</body>
+</html>
